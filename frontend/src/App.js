@@ -45,7 +45,7 @@ function App() {
       <Routes>
         
         {/* Home Layout */ }
-        <Route element={<HomeLayout />}>
+        <Route element={<GuestLayout />}>
           <Route path="/" element={<Home />} />
         </Route>
         
